@@ -1,0 +1,165 @@
+/* Format Clear */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: Georgia, "Times New Roman", times;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+#wrap { 
+	width:940px; 
+	margin:0 auto; 
+	line-height: 100%;
+}
+
+.header{
+	height: 200px;
+	background: url(header.jpg);
+	background-position: 0% 100%;
+	text-align: center;
+}
+
+.header:hover{
+	background-position: 0% 0%;
+}
+
+.nav{
+	color: white;
+	background-color: white; 
+	opacity: 0.6;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px grey;
+	padding: 10px;
+}
+
+.nav:hover{
+	background-color: white; 
+	opacity: 0.9;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrap { width:940px; margin:0 auto; }
+
+body {
+	font-size: 12pt;
+	color: black;
+	background-color: white;
+	padding: 10px;
+	margin: 0px;
+	text-align: left
+}
+
+/*====Body/Background Format====*/
+
+body{
+	background-color: #C0C0C0;
+	font-family: tahoma, sans-serif;
+}
+
+h1{
+	font-size:14pt;
+}
+
+h2{
+	font-size: 14px;
+	color: #333;
+}
+
+h3{
+	color: #333;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/*====Main White Block====*/
+
+div.block{
+	background-color:white; 
+	width:900px; 
+	min-height: 400px;
+	padding: 20px; 
+	line-height: 120%;
+	text-align: justify;
+}
+/*====Footer====*/
+div.footer{
+	width:898px;
+	text-align: center;
+	padding: 20px;
+	border: solid black 2px; 
+	font-size: 12px;
+}
+
+/*==== Side Column Main Page====*/
+.column2{
+	float: right; 
+	margin-left: 15px;
+	padding: 20px; 
+	min-height: 300px; 
+	border: solid black 1px;
+	width: 200px;
+	height: 486px;	
+	background-color: #333; 
+	color: white;
+	font-weight: bold;
+	font-size: 80%;
+	line-height: 140%;
+}
+
+.box{
+	width: 280px;
+	min-height: 160px;
+	padding: 15px;
+	margin: 1px;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 12px;
+}
+

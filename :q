@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   .DS_Store
+#	new file:   CNAME
+#	new file:   about.html
+#	new file:   acorn_ridge.css
+#	new file:   cat1.jpg
+#	new file:   clouds.jpg
+#	new file:   excerpt.html
+#	new file:   header.jpg
+#	new file:   helen bell demon cover.psd
+#	new file:   index.html
+#	new file:   mail.jpg
+#	new file:   one_more_victim_cover.jpg
+#	new file:   order.html
+Commit message: add all files to github
